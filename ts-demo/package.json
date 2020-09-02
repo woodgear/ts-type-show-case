@@ -1,0 +1,22 @@
+{
+    "name": "ts-demp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib.js",
+    "scripts": {
+        "test": "jest -c ./jest.config.json",
+        "run": "ts-node src/main.ts"
+    },
+    "author": "wg",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^25.2.3",
+        "jest": "^25.5.4",
+        "ts-jest": "^25.5.1",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7"
+    },
+    "dependencies": {
+        "js-demo": "file:../js-demo"
+    }
+}
